@@ -33,7 +33,7 @@ export default function SwiggyCloneHeaderOffers() {
 
   // ✅ Fetch image data from your API
   useEffect(() => {
-    fetch("http://localhost:5001/api/food")
+    fetch("https://swiggy-backend-api-w7ct.onrender.com/api/food")
       .then((res) => res.json())
       .then((data) => setCards(data))
       .catch((err) => console.error("Error fetching data:", err));
