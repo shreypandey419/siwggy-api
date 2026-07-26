@@ -7,7 +7,7 @@ export default function Category() {
     
 
     const fetchCategory = async () => {
-        const response = await fetch("https://swiggy-backend-api-w7ct.onrender.com");
+        const response = await fetch("https://swiggy-backend-api-w7ct.onrender.com/categories");
         const data = await response.json();
         setCategory(data);
     };    
