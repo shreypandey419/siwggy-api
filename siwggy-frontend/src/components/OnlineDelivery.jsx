@@ -23,7 +23,7 @@ export default function OnlineDelivery() {
   }, []);
 
     const fetchTopRestaurant = async () => {
-            const response = await fetch('http://localhost:5001/top-restaurant-chains');
+            const response = await fetch("https://swiggy-backend-api-w7ct.onrender.com/top-restaurant-chains");
             const apiData = await response.json();
             setData(apiData);
         }
