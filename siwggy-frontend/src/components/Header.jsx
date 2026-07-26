@@ -130,7 +130,7 @@ export default function SwiggyCloneHeaderOffers() {
             <div key={c.id} className="bg-white rounded-2xl shadow p-4 flex gap-4 items-center hover:shadow-lg transition-all">
               <div className="w-28 h-20 bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg">
                 <img
-                  src={`http://localhost:5001/images/${c.image}`}
+                  src={`https://swiggy-backend-api-w7ct.onrender.com/images/${c.image}`}
                   alt={c.name}
                   className="object-cover w-full h-full group-hover:scale-110 duration-150"
                 />
