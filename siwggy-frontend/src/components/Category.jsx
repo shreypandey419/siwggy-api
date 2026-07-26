@@ -49,7 +49,7 @@ export default function Category() {
                                 <div style={{
                                     transform : `translateX(-${slide * 100}%)`
                                 }} key={index} className='w-[150px] shrink-0 duration-500'>
-                                    <img src={"http://localhost:5001/images/" + cat.image} alt=''/>
+                                    <img src={"https://swiggy-backend-api-w7ct.onrender.com/images/" + cat.image} alt=''/>
                                 </div>
                             )
                         }
